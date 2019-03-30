@@ -1,0 +1,146 @@
+.ux-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #ECECEC;
+  border: 1px solid transparent;
+  padding: 10px 25px;
+  font-size: 16px;
+  line-height: 1.9;
+  border-radius: 2px;
+  text-decoration: none;
+  outline: none;
+  margin: 5px 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  min-height: 50px;
+  min-width: 50px;
+  vertical-align: middle; }
+  .ux-btn:hover {
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    cursor: pointer; }
+  .ux-btn i {
+    margin-right: 10px;
+    vertical-align: initial; }
+  .ux-btn-small {
+    padding: 9px 5px 9px 15px;
+    text-align: center; }
+.ux-dark {
+  background: #212121;
+  color: #fff; }
+  .ux-dark:hover {
+    background: #373737; }
+.ux-danger {
+  background: #f44336;
+  color: #fff; }
+  .ux-danger:hover {
+    background: #E13326; }
+.ux-warning {
+  background: #ffa726;
+  color: #fff; }
+  .ux-warning:hover {
+    background: #EE9B22; }
+.ux-yellow {
+  background: #fdd835;
+  color: #fff; }
+  .ux-yellow:hover {
+    background: #F1CD2E; }
+.ux-success {
+  background: #00B54B;
+  color: #fff; }
+  .ux-success:hover {
+    background: #059B43; }
+.ux-info {
+  background: #2196F3;
+  color: #fff; }
+  .ux-info:hover {
+    background: #1E84D5; }
+.ux-blue {
+  background: #3F51B5;
+  color: #fff; }
+  .ux-blue:hover {
+    background: #3747A1; }
+.ux-violet {
+  background: #AB47BC;
+  color: #fff; }
+  .ux-violet:hover {
+    background: #9B3FAB; }
+.ux-white {
+  background: #FFFFFF;
+  color: #000;
+  border: 1px solid #707070; }
+  .ux-white:hover {
+    background: rgba(0, 0, 0, 0.02); }
+.ux-disabled {
+  background: white;
+  color: #000;
+  opacity: 0.6; }
+  .ux-disabled:hover {
+    cursor: not-allowed; }
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url("../assets/fonts/ProximaNova/ProximaNova-Semibold.eot");
+  src: url("../assets/fonts/ProximaNova/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/ProximaNova/ProximaNova-Semibold.woff") format("woff"), url("../assets/fonts/ProximaNova/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url("../assets/fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: url("../assets/fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../assets/fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  font-family: 'Proxima Nova Regular', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*# sourceMappingURL=uxkit.css.map */
